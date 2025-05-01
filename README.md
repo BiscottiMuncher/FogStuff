@@ -1,2 +1,2 @@
 # FogStuff
-Repository for all the scripts and snapins ive written for FOG 
+Repository for all the scripts, snapins, and everyting else ive written for FOG 
