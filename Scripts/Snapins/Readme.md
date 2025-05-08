@@ -44,7 +44,7 @@ Script to set Netboot and Turn OFF SecureBoot
 
 Takes in one argument IF there is a BIOS password Set: 'Current PW' Must Use Single Quotes ''
 Example: ./NetbootNoSBFinal.ps1 'password' (If there is a password)
-- or -
+~ or ~
 Example: ./NetbootNoSBFinal.ps1 (If there isnt a password)
 
 Requirements:
@@ -64,7 +64,7 @@ Script to set internal M.2 and Turn ON SecureBoot
 
 Takes in one argument IF there is a BIOS password Set: 'Current PW' Must Use Single Quotes ''
 Example: ./SSDwithSBFinal.ps1 'password' (If there is a password)
-- or -
+~ or ~
 Example: ./SSDwithSBFinal.ps1 (If there isnt a password)
 
 Requirements:
