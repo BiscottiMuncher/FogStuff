@@ -5,10 +5,10 @@
 Script to change HP Bios Password
 
 Takes in two arguments 'Current PW' 'New PW' Must Use Single Quotes ''
-Example: ./ChangeBIOSPwFinal.ps1 'password' 'new_pass'
+- Example: ./ChangeBIOSPwFinal.ps1 'password' 'new_pass'
 
 Requirements:
-- HP.ClientManagement be installed
+- HP.ClientManagement be installed (See Installer Folder) 
 - New password cannot be blank or ''
 - New password Must be more than 8 characters
 
@@ -24,10 +24,10 @@ Logging and Errors
 Script to Clear HP Bios Password
 
 Takes in one argument 'Current PW' Must Use Single Quotes ''
-Example: ./ClearBiosPasswordFinall.ps1 'password'
+- Example: ./ClearBiosPasswordFinall.ps1 'password'
 
 Requirements:
-- HP.ClientManagement be installed
+- HP.ClientManagement be installed (See Installer Folder) 
 - Current password cannot be blank or ''
 - Current password Must be more than 8 characters
 
@@ -43,12 +43,12 @@ Logging and Errors
 Script to set Netboot and Turn OFF SecureBoot
 
 Takes in one argument IF there is a BIOS password Set: 'Current PW' Must Use Single Quotes ''
-Example: ./NetbootNoSBFinal.ps1 'password' (If there is a password)
-~ or ~
-Example: ./NetbootNoSBFinal.ps1 (If there isnt a password)
+- Example: ./NetbootNoSBFinal.ps1 'password' (If there is a password)
+  - or
+- Example: ./NetbootNoSBFinal.ps1 (If there isnt a password)
 
 Requirements:
-- HP.ClientManagement be installed
+- HP.ClientManagement be installed (See Installer Folder) 
 - Bios password if one is set
 
 FOG Setup
@@ -63,12 +63,12 @@ Logging and Errors
 Script to set internal M.2 and Turn ON SecureBoot
 
 Takes in one argument IF there is a BIOS password Set: 'Current PW' Must Use Single Quotes ''
-Example: ./SSDwithSBFinal.ps1 'password' (If there is a password)
-~ or ~
-Example: ./SSDwithSBFinal.ps1 (If there isnt a password)
+- Example: ./SSDwithSBFinal.ps1 'password' (If there is a password)
+  - or
+- Example: ./SSDwithSBFinal.ps1 (If there isnt a password)
 
 Requirements:
-- HP.ClientManagement be installed
+- HP.ClientManagement be installed (See Installer Folder) 
 - Bios password if one is set
 
 FOG Setup
