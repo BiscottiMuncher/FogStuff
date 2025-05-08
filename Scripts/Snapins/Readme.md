@@ -1,6 +1,5 @@
 # Snapins
 
---- 
 ### ChangeBiosPW
 Script to change HP Bios Password
 
